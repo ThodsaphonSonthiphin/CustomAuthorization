@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CustomAuthorization.props" />
+</Project>
