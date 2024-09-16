@@ -30,3 +30,4 @@
 /Users/liu/RiderProjects/CustomAuthorization/CustomAuthorization/obj/Debug/net8.0/CustomAuthorization.pdb
 /Users/liu/RiderProjects/CustomAuthorization/CustomAuthorization/obj/Debug/net8.0/CustomAuthorization.genruntimeconfig.cache
 /Users/liu/RiderProjects/CustomAuthorization/CustomAuthorization/obj/Debug/net8.0/ref/CustomAuthorization.dll
+/Users/liu/RiderProjects/CustomAuthorization/CustomAuthorization/obj/Debug/net8.0/CustomAuthorization.sourcelink.json

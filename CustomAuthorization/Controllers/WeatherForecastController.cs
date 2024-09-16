@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustomAuthorization.Controllers;
@@ -28,5 +29,12 @@ public class WeatherForecastController : ControllerBase
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+    }
+    
+    [HttpGet("adults-only")]
+    [Authorize(Policy = "AtLeast18")]
+    public IActionResult AdultsOnly()
+    {
+        return Ok("Welcome to the adult section!");
     }
 }
